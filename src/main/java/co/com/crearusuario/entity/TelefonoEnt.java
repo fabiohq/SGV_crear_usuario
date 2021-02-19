@@ -1,8 +1,10 @@
 package co.com.crearusuario.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
+@Table(name ="telefono")
 public class TelefonoEnt {
 
 	private String id;
